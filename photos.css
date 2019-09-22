@@ -1,0 +1,126 @@
+img {
+	opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+	width: 40%;
+	float: left;
+	margin: 5%;
+}
+
+img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+p {
+	color: #888;
+    text-align: center;
+    margin-top: 20px;
+	font-family: Raleway;
+	padding: 50px;
+    font-size: 80%;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+	overflow: auto;
+	top: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+
+  }
+
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+
+
+
+
+/* ----------------------------------------------- */
+/* SECTION PHOTOS */
+/* ----------------------------------------------- */
+
+.section-photos {
+    padding: 0;
+}
+
+.photos-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.photos-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+col span-1-of-2s
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
